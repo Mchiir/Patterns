@@ -1,0 +1,60 @@
+body{
+    background-color: white;
+}
+#div1 input[type='text']{
+display: block;
+outline: 0;
+padding: 3px;
+padding-left: 0.1cm;
+border: 2px solid rgba(0,0,250, 0.3);
+border-radius: 5px;
+
+}
+input[type='text']:focus {
+    border-color: #7db0fb;
+    outline: 0;
+    box-shadow: 0 0 0 4px rgba(24,117, 255, 0.3);
+    border-radius: 3px;
+    transition: border-color 0.20s, box-shadow 0.20s;
+}
+#div2 input[type='submit'],
+input[type='reset']{
+    border: 0;
+    outline: 0;
+    background-color: rgba(0, 0, 250, 0.8);
+    color: white;
+    transform: scale(1.4);
+    border-radius: 3px;
+    margin-left: 0.5cm;
+}
+#userdata{
+    border: 0;
+    outline: 0;
+    width: 20%;
+    height: 30%;
+    margin-left: 20cm;
+    color: black;
+    transform: scale(1.1);
+    border-radius: 3px;
+}
+*{
+    font-family: arial,sans-serif;
+}
+
+input[type='text']{
+    transform: scale(1.4);
+    margin: 10px auto auto 1cm;
+}
+/* 
+#div2 input[type='submit']:mouse-over,
+input[type='reset']:mouse-over {
+    cursor: wait;
+    transition: cursor 1s;
+
+}
+
+#div2 input[type='submit']:mouse-out,
+input[type='reset']:mouse-out {
+cursor: text;
+transition: cursor 1s;
+} */

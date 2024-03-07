@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>child App</title>
+    <link rel="stylesheet" href="child.css">
+    <style>
+        button{
+        border: 0;
+        outline: 0;
+        background-color: rgba(0, 0, 100, 0.8);
+        color: white;
+        transform: scale(1.4);
+        border-radius: 3px;
+        margin-left: 0.5cm;
+        }
+    </style>
+</head>
+<body>
+    <h2>Child input data</h2>
+    <form id="form1">
+        <div id="cont">
+            <div id="div1">
+                <label for="name">Name: </label>
+                <input type="text" required id="name" name="Name" maxlength="30" autofocus><br>
+                <label for="school">School: </label>
+                <input type="text" required id="school" name="School" maxlength="50"><br>
+            </div>
+            <div id="div2">
+                <input type="submit" id="submit" name="submit" value="submit">
+                <input type="reset" value="Clear">
+            </div>
+        </div>
+    </form>
+    <div id="userdata"></div>
+    <script src="child.js">
+    </script>
+</body>
+</html>
